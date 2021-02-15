@@ -19,6 +19,5 @@ steps:
     displayName: 'install snyk'
 
   - script: |
-    #sudo snyk test
-    sudo snyk test --file=OAI.sln
+      sudo snyk test --all-projects
     displayName: 'sudo snyk test'
